@@ -12,11 +12,13 @@
 * LEVEL TWO: Player robot must return to humans, but rogue robots are alerted to their presence. A squad of more powerful rogue robots are dispatched to the player's area, and the player must get past them plus any other robots in the area to an escape vehicle.
   * CLEAR STATE A: Robot reaches escape vehicle.
   * CLEAR STATE B: Eliminate all elite robots.
-* LEVEL THREE: Player robot is in process of being upgraded at base when rogue robot forces attack. Player robot must make its way through the base, fighting progressively stronger robots and collecting upgrades to fight 'boss' robot.
-  * CLEAR STATE A: Defeat boss.
+* LEVEL THREE: Player robot is in process of being upgraded at human's base when rogue robot forces attack. Player robot must make its way through the base, fighting progressively stronger robots and collecting upgrades to fight 'boss' robot.
+    * CLEAR STATE A: Defeat all enemy robots
+* LEVEL FOUR: Player reaches boss area.
+    * CLEAR STATE A: Defeat boss.
 * ENDING
-  1. Robot wave defeated, humans begin to turn tide on robots.
-  2. Robot rebellion crushed, society restructured.
+    1. Robot wave defeated, humans begin to turn tide on robots.
+    2. Robot rebellion crushed, society restructured.
 
 ---
 
