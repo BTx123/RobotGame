@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5050890791ba6ba48ba4be3a8181ce1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartSprites:
+  healthSprites:
   - {fileID: 21300010, guid: c3ff0fb0f1121504b8f30c173a4e9e94, type: 3}
   - {fileID: 21300008, guid: c3ff0fb0f1121504b8f30c173a4e9e94, type: 3}
   - {fileID: 21300006, guid: c3ff0fb0f1121504b8f30c173a4e9e94, type: 3}
@@ -2082,12 +2082,12 @@ GameObject:
   - 114: {fileID: 1703155717}
   - 114: {fileID: 1703155716}
   m_Layer: 0
-  m_Name: Pause Menu
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1703155716
 MonoBehaviour:
   m_ObjectHideFlags: 0
