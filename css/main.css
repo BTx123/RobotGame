@@ -3,5 +3,13 @@ html {
 }
 
 nav ul li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-decoration: none;
     list-style: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
