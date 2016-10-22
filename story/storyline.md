@@ -44,4 +44,22 @@ As a last-ditch effort to push back The Foundation, an all-out assault is launch
 
 ---
 ### LEVEL THREE - "THE ORDEAL"
-* 'CUTSCENE' - The player is receiving upgrades at the human base when the
+* 'CUTSCENE' - The player is receiving upgrades at the human base when The Foundation's forces break in, interrupting the process of the upgrade. A group of humans help the player escape being noticed.
+* The player searches the base for the rest of the upgrades, confronting more powerful robots until he reaches the Foundation's mothership
+* (OPTIONAL) The player frees the main board of humans from a group of robots in order to restore power to the base and push back some of the Foundation forces
+* The level ends upon the player, fully upgraded, enters the ship to confront the leader.
+
+### NOTES
+* Upgrades can either be gradual or simply pieces for a larger upgrade, which means that the player does not necessarily have to get more powerful through the level, but instead collecting things to confront the leader.
+
+---
+### LEVEL FOUR - "CROSSING THE THRESHOLD"
+* Player confronts the boss, a defective robot. The two clash after a brief exchange in which the leader belittles humanity.
+* After the leader's defeat, the player detonates the ship's core, destroying all Foundation forces on board and ending the offensive. It also destroys the player. Something about a sacrifice.
+
+### NOTES
+* Have an antechamber that leads into boss fight as to avoid dumping player directly into the fight, instead have cutscene be dialogue-based? Or have cutscene, then start in antechamber leading to boss.
+
+---
+### ENDING - "THE ORDINARY WORLD"
+* Now free of robots, the world restructures and moves on, restoring society to peace. The site of the mothership is made into a museum/memorial of sorts, the player hailed as a hero and "the last robot"
