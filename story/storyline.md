@@ -13,7 +13,7 @@ As a last-ditch effort to push back The Foundation, an all-out assault is launch
 * Also yes I am totally just ripping off chunks of Mega Man but please shhhhhh I want to pretend like I am being original thank you
 
 ---
-### LEVEL ONE - "RETURN"
+### LEVEL ONE - "THE RESURRECTION"
 * 'CUTSCENE' - Player wakes up among the ruins/remains of the allied army, crawls out.
 * At one point very close to the opening, dialogue/cutscene of how the player uses enemy scraps to repair themselves, signifying the first of the level's objectives
 * (OPTIONAL) About 75% of the way into the level, the player stumbles across a beacon to contact the humans. Dialogue/cutscene of the player trying and failing to use the beacon, then setting out to find parts to repair the beacon.
@@ -23,3 +23,25 @@ As a last-ditch effort to push back The Foundation, an all-out assault is launch
 ### NOTES
 * Can make the player's main contacts on the human end two characters - guides ZACK and MELANIE. This is mostly to establish some other characters so later dialogue is from recognizable characters as opposed to a faceless entity.
 * Non-slides cutscenes would require some camera/trigger programming.
+
+---
+### INTERMISSION
+* 'CUTSCENE' - The Foundation base notices the signal from the beacon, send a squad of robots to search the area again.
+
+---
+### LEVEL TWO - "THE ROAD BACK"
+* 'CUTSCENE' - The player receives info from the humans on a working shuttle pod that can transport the player back to the human base.
+* The player is located by one of The Foundation's elite squads, and has to leave the beacon location to avoid being attacked
+* The player makes their way around the level, eliminating the robots to avoid having them tracking the player back to the base.
+* Reaching the ending, the player defeats the leader of the squadron and boards the shuttle pod, though the leader manages to attach part of himself to the pod before shutting down.
+
+### NOTES
+* Current story culminates in a boss fight - can be also just be larger squad of enemies at end to culminate in a more intense fight or something
+
+---
+### INTERMISSION
+* 'CUTSCENE' - The Foundation locates the human base, dispatches all forces to attack the base
+
+---
+### LEVEL THREE - "THE ORDEAL"
+* 'CUTSCENE' - The player is receiving upgrades at the human base when the
