@@ -1,46 +1,46 @@
 :root {
-    --main-color: #009688;
-    --light-color: #E0F2F1;
-    --dark-color: #004D40;
+	--main-color: #009688;
+	--light-color: #E0F2F1;
+	--dark-color: #004D40;
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: var(--main-color);
+	background-color: var(--main-color);
 }
 
 nav {
-    width: 200px;
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
 
 }
 
 nav ul li {
-    display: block;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    list-style: none;
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	list-style: none;
 }
 
 a {
-    text-decoration: none;
-    font-size: 2em;
-    color:  var(--light-color);
+	text-decoration: none;
+	font-size: 2em;
+	color:  var(--light-color);
 }
 
 a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 h1 {
-    
+	
 }
 
 footer {
