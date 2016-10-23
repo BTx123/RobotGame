@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 	// Stats
 	public int currHealth;
 	public int maxHealth = 100;
+    public int lastFacing = 1;
 
 	// Floats
 	public float speed = 50f;
@@ -41,15 +42,21 @@ public class Player : MonoBehaviour
 		anim.SetBool("isGrounded", isGrounded); // associating Grounded from Unity to isGrounded in script
 		anim.SetFloat("Speed", Mathf.Abs(rb2D.velocity.x)); // only a positive value
 		anim.SetBool("isDead", isDead); // dead when currHealth <= 0
+        if (Input.GetAxis("Horizontal") == 0)
+        {
+            transform.localScale = new Vector3(lastFacing, 1, 1);
+        }
 		// walking to the left
-		if (Input.GetAxis("Horizontal") < 0.1f)
+		if (Input.GetAxis("Horizontal") < 0)
         {
 			transform.localScale = new Vector3 (-1, 1, 1);
+            lastFacing = -1;
 		}
 		// walking to the right
-		if (Input.GetAxis("Horizontal") > 0.1f)
+		if (Input.GetAxis("Horizontal") > 0)
         {
 			transform.localScale = new Vector3 (1, 1, 1);
+            lastFacing = 1;
 		}
         // jumping
         if (Input.GetButtonDown("Jump"))
