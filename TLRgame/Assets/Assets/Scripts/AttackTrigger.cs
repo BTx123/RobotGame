@@ -3,13 +3,14 @@ using System.Collections;
 
 public class AttackTrigger : MonoBehaviour {
 
-	// Use this for initialization
-	void Start() {
-	
-	}
-	
-	// Update is called once per frame
-	void Update() {
-	
-	}
+    public int damage = 20;
+
+    // On attack trigger collision with enemy collision box, 
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (!col.isTrigger && col.CompareTag("Enemy"))
+        {
+            col.SendMessageUpwards("Damage", damage);
+        }
+    }
 }
