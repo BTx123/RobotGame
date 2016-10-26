@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 80527a1b63f259145820f2ca0347c398
-timeCreated: 1463594651
+timeCreated: 1477455338
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -57,196 +57,51 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Track_0
+    - serializedVersion: 2
+      name: Track_0
       rect:
         serializedVersion: 2
-        x: 1806
-        y: 375
-        width: 716
-        height: 121
+        x: 0
+        y: 376
+        width: 272
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 162.59521, y: 29.449173}
-        - {x: -169.40479, y: 29.449173}
-        - {x: -169.40479, y: -26.550827}
-        - {x: -162.40479, y: -28.550827}
-        - {x: 170.59521, y: -28.550827}
-        - {x: 170.59521, y: 21.449173}
-    - name: Track_1
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Track_1
       rect:
         serializedVersion: 2
-        x: 895
-        y: 246
-        width: 275
-        height: 124
+        x: 0
+        y: 188
+        width: 712
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -55.987976, y: 30.406654}
-        - {x: -64.987976, y: 21.406654}
-        - {x: -64.987976, y: -20.593346}
-        - {x: -58.987976, y: -29.593346}
-        - {x: 66.012024, y: -29.593346}
-        - {x: 66.012024, y: 29.406654}
-        - {x: 63.012024, y: 30.406654}
-    - name: Track_2
-      rect:
-        serializedVersion: 2
-        x: 1214
-        y: 246
-        width: 275
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -54.037903, y: 30.406654}
-        - {x: -65.0379, y: 20.406654}
-        - {x: -65.0379, y: -18.593346}
-        - {x: -57.037903, y: -29.593346}
-        - {x: 58.962097, y: -29.593346}
-        - {x: 65.9621, y: -26.593346}
-        - {x: 65.9621, y: 24.406654}
-        - {x: 58.962097, y: 30.406654}
-    - name: Track_3
-      rect:
-        serializedVersion: 2
-        x: 1542
-        y: 246
-        width: 276
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -65.32904, y: 30.406654}
-        - {x: -65.32904, y: -29.593346}
-        - {x: 66.67096, y: -29.593346}
-        - {x: 66.67096, y: 25.406654}
-        - {x: 65.67096, y: 30.406654}
-    - name: Track_4
-      rect:
-        serializedVersion: 2
-        x: 2510
-        y: 246
-        width: 276
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -65.27356, y: 30.406654}
-        - {x: -65.27356, y: -29.593346}
-        - {x: 66.72644, y: -29.593346}
-        - {x: 66.72644, y: 25.406654}
-        - {x: 65.72644, y: 30.406654}
-    - name: Track_5
-      rect:
-        serializedVersion: 2
-        x: 2839
-        y: 246
-        width: 275
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -59.09143, y: 30.406654}
-        - {x: -65.09143, y: 28.406654}
-        - {x: -65.09143, y: -21.593346}
-        - {x: -59.09143, y: -29.593346}
-        - {x: 63.90857, y: -29.593346}
-        - {x: 65.90857, y: -23.593346}
-        - {x: 65.90857, y: 29.406654}
-        - {x: 63.90857, y: 30.406654}
-    - name: Track_6
-      rect:
-        serializedVersion: 2
-        x: 3158
-        y: 246
-        width: 275
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -58.141357, y: 30.406654}
-        - {x: -65.14136, y: 25.406654}
-        - {x: -65.14136, y: -23.593346}
-        - {x: -64.14136, y: -29.593346}
-        - {x: 65.85864, y: -29.593346}
-        - {x: 65.85864, y: 24.406654}
-        - {x: 63.858643, y: 30.406654}
-    - name: Track_7
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Track_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 449
-        height: 121
+        width: 448
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -106.5, y: 29}
-        - {x: -106.5, y: -21}
-        - {x: -99.5, y: -29}
-        - {x: 106.5, y: -29}
-        - {x: 106.5, y: 29}
-    - name: Track_8
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 119
-        width: 450
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -106.48059, y: 29.810535}
-        - {x: -106.48059, y: -29.189465}
-        - {x: 107.51941, y: -29.189465}
-        - {x: 107.51941, y: 29.810535}
-    - name: Track_9
-      rect:
-        serializedVersion: 2
-        x: 3431
-        y: 119
-        width: 450
-        height: 123
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -106.458374, y: 29.810535}
-        - {x: -106.458374, y: -29.189465}
-        - {x: 107.541626, y: -29.189465}
-        - {x: 107.541626, y: 29.810535}
-    - name: Track_10
-      rect:
-        serializedVersion: 2
-        x: 3879
-        y: 0
-        width: 449
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -101.96582, y: 29}
-        - {x: -105.96582, y: 26}
-        - {x: -105.96582, y: -29}
-        - {x: 106.03418, y: -29}
-        - {x: 107.03418, y: -26}
-        - {x: 107.03418, y: 29}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
