@@ -9,4 +9,3 @@
 * PLAYER/ROBOT: scraps... find scraps...
 
 ##### LEVEL ONE - FIND BEACON
-* 
