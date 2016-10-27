@@ -9,12 +9,12 @@ public class HUD : MonoBehaviour
 
 	public Player player;
 
-	void Start ()
+	void Start()
 	{
 		player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player> ();
 	}
 
-	void Update ()
+	void Update()
 	{
 		healthUI.sprite = healthSprites[player.currHealth];
 	}

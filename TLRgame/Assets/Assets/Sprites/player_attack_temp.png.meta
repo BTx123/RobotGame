@@ -1,20 +1,14 @@
 fileFormatVersion: 2
-guid: 80527a1b63f259145820f2ca0347c398
-timeCreated: 1477455338
+guid: fde16c2e0694f7246acd492c80d3f7ec
+timeCreated: 1477448416
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Track_0
-    21300002: Track_1
-    21300004: Track_2
-    21300006: Track_3
-    21300008: Track_4
-    21300010: Track_5
-    21300012: Track_6
-    21300014: Track_7
-    21300016: Track_8
-    21300018: Track_9
-    21300020: Track_10
+    21300000: player_attack_temp_0
+    21300002: player_attack_temp_1
+    21300004: player_attack_temp_2
+    21300006: player_attack_temp_3
+    21300008: player_attack_temp_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -64,39 +58,65 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Track_0
+      name: player_attack_temp_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 376
-        width: 272
-        height: 120
+        x: 78
+        y: 47
+        width: 291
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Track_1
+      name: player_attack_temp_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 188
-        width: 712
-        height: 120
+        x: 591
+        y: 47
+        width: 275
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Track_2
+      name: player_attack_temp_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 448
-        height: 120
+        x: 1102
+        y: 47
+        width: 324
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_attack_temp_3
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 47
+        width: 308
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: player_attack_temp_4
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 47
+        width: 291
+        height: 434
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
