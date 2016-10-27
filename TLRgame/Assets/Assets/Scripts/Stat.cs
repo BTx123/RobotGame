@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 [Serializable]
-public class Stat{
+public class Stat {
 	[SerializeField]
 	private BarScript bar;
 

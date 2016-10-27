@@ -364,7 +364,7 @@ MonoBehaviour:
   bounds: 1
   minValue: {x: -23.51, y: -7.18, z: -1}
   maxValue: {x: 23.52, y: 7.12, z: -1}
-  player: {fileID: 708682225}
+  player: {fileID: 0}
 --- !u!114 &140751608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   - {fileID: 21300002, guid: c3ff0fb0f1121504b8f30c173a4e9e94, type: 3}
   - {fileID: 21300000, guid: c3ff0fb0f1121504b8f30c173a4e9e94, type: 3}
   healthUI: {fileID: 539764069}
-  player: {fileID: 708682231}
+  player: {fileID: 0}
 --- !u!1 &168899609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1127,17 +1127,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4000011427178744, guid: 09a35b15cd40dbd4c910c264cc3e6a2b,
     type: 2}
   m_PrefabInternal: {fileID: 662127512}
---- !u!1 &708682225 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000012509000898, guid: 55a4bd6522101b04fba914c23b79aba5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1991960709}
---- !u!114 &708682231 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000010992725028, guid: 55a4bd6522101b04fba914c23b79aba5,
-    type: 2}
-  m_PrefabInternal: {fileID: 1991960709}
-  m_Script: {fileID: 11500000, guid: 3a740a09b9019e54d88dc6f3efda6016, type: 3}
 --- !u!1 &722781052
 GameObject:
   m_ObjectHideFlags: 0
