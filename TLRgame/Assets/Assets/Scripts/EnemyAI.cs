@@ -3,7 +3,7 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
 
-    int currHealth = 50;
+    public int currHealth = 50;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +14,7 @@ public class EnemyAI : MonoBehaviour {
 	void Update () {
 	    if (currHealth <= 0)
         {
+            print("Enemy killed!");
             Destroy(gameObject);
         }
 	}
@@ -22,6 +23,6 @@ public class EnemyAI : MonoBehaviour {
     {
         currHealth -= damage;
         // TODO: red flash animation
-        gameObject.GetComponent<Animation>().Play("DamageRedFlash");
+        // gameObject.GetComponent<Animation>().Play("DamageRedFlash");
     }
 }

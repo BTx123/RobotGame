@@ -93,7 +93,7 @@ public class Player : MonoBehaviour
 	void FixedUpdate ()
 	{
 		// Fake friction to ease velocity
-		/*Vector3 easeVelocity = rb2D.velocity;
+		Vector3 easeVelocity = rb2D.velocity;
 		if (Input.GetAxis("Horizontal") < 1f && Input.GetAxis("Horizontal") > -1f) { // prevent friction from activating when moving
 			easeVelocity.x *= friction; // decrease magnitude of x
 		}
@@ -101,7 +101,7 @@ public class Player : MonoBehaviour
 		easeVelocity.z = 0.0f; // no z-axis change
 		if (isGrounded) {
 			rb2D.velocity = easeVelocity;
-		}*/
+		}
 		// horizontal movement
 		float x = Input.GetAxis("Horizontal"); // -1 or +1 for left and right
 		rb2D.AddForce (Vector2.right * speed * x); // multiply 2D vector by magnitude (speed) and direction (x)
