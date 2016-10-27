@@ -3,8 +3,8 @@ using System.Collections;
 using System;
 
 [Serializable]
-public class Stat{
-
+public class Stat {
+	[SerializeField]
 	public BarScript bar;
 
 	public float maxVal;
