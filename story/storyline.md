@@ -44,7 +44,7 @@ As a last-ditch effort to push back The Foundation, an all-out assault is launch
 
 ---
 ### LEVEL THREE - "THE ORDEAL"
-* 'CUTSCENE' - The player is receiving upgrades at the human base when The Foundation's forces break in, interrupting the process of the upgrade. A group of humans help the player escape being noticed.
+* 'CUTSCENE' - The player is receiving upgrades at the human base when The Foundation's forces break in, interrupting the process of the upgrade. A group of humans help the player escape without being noticed.
 * The player searches the base for the rest of the upgrades, confronting more powerful robots until he reaches the Foundation's mothership
 * (OPTIONAL) The player frees the main board of humans from a group of robots in order to restore power to the base and push back some of the Foundation forces
 * The level ends upon the player, fully upgraded, enters the ship to confront the leader.

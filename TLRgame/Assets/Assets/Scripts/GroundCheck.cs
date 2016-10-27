@@ -13,19 +13,28 @@ public class GroundCheck : MonoBehaviour
 	{
 		player = gameObject.GetComponentInParent<Player>();
 	}
-	// true when player is on ground
+	// true when player collides with collider that is not a trigger
 	void OnTriggerEnter2D(Collider2D col)
 	{
-		player.isGrounded = true;
+        if (!col.isTrigger)
+        {
+            player.isGrounded = true;
+        }
 	}
-
+    // true whien is contact with collider that is not a trigger
 	void OnTriggerStay2D(Collider2D col)
 	{
-		player.isGrounded = true;
+        if (!col.isTrigger)
+        {
+            player.isGrounded = true;
+        }
 	}
-	// false when player is off ground
+	// false when player stops colliding with collider that is not a trigger
 	void OnTriggerExit2D(Collider2D col)
 	{
-		player.isGrounded = false;
+        if (!col.isTrigger)
+        {
+            player.isGrounded = false;
+        }        
 	}
 }

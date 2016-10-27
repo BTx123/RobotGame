@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 	// Stats
 	public int currHealth;
 	public int maxHealth = 100;
+    public int lastFacing = 1;
 
 	// Floats
 	public float speed = 50f;
@@ -38,20 +39,27 @@ public class Player : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		anim.SetBool("isGrounded", isGrounded); // associating Grounded from Unity to isGrounded in script
+		anim.SetBool("isGrounded", isGrounded);             // associating Grounded from Unity to isGrounded in script
 		anim.SetFloat("Speed", Mathf.Abs(rb2D.velocity.x)); // only a positive value
-		anim.SetBool("isDead", isDead); // dead when currHealth <= 0
-		// walking to the left
-		if (Input.GetAxis("Horizontal") < 0.1f)
+		anim.SetBool("isDead", isDead);                     // dead when currHealth <= 0
+        // Player faces last facing direction when idle
+        if (Input.GetAxis("Horizontal") == 0)
+        {
+            transform.localScale = new Vector3(lastFacing, 1, 1);
+        }
+		// Walking to the left
+		if (Input.GetAxis("Horizontal") < 0)
         {
 			transform.localScale = new Vector3 (-1, 1, 1);
+            lastFacing = -1;
 		}
-		// walking to the right
-		if (Input.GetAxis("Horizontal") > 0.1f)
+		// Walking to the right
+		if (Input.GetAxis("Horizontal") > 0)
         {
 			transform.localScale = new Vector3 (1, 1, 1);
+            lastFacing = 1;
 		}
-        // jumping
+        // Jumping
         if (Input.GetButtonDown("Jump"))
         {
             if (isGrounded)
@@ -69,10 +77,12 @@ public class Player : MonoBehaviour
                 }
             }
         }
+        // Limit health to max possible health
 		if (currHealth > maxHealth)
         {
 			currHealth = maxHealth;
 		}
+        // Player dies if health is 0 or less
         else if (currHealth <= 0)
         {
 			Die ();
@@ -82,7 +92,7 @@ public class Player : MonoBehaviour
 	// FixedUpdated called for physics stuff
 	void FixedUpdate ()
 	{
-		// fake friction to ease velocity
+		// Fake friction to ease velocity
 		Vector3 easeVelocity = rb2D.velocity;
 		if (Input.GetAxis("Horizontal") < 1f && Input.GetAxis("Horizontal") > -1f) { // prevent friction from activating when moving
 			easeVelocity.x *= friction; // decrease magnitude of x
@@ -102,14 +112,14 @@ public class Player : MonoBehaviour
 		}
 		if (rb2D.velocity.x < -maxSpeed)
         {
-			rb2D.velocity = new Vector2 (-maxSpeed, rb2D.velocity.y);
+			rb2D.velocity = new Vector2(-maxSpeed, rb2D.velocity.y);
 		}
 	}
-
+    // Player respawns, level restarts
 	void Die ()
 	{
 		isDead = true;
 		//yield return new WaitForSeconds (2);
-		SceneManager.LoadScene (SceneManager.GetActiveScene().name);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 }
