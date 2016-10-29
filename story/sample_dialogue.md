@@ -1,0 +1,12 @@
+##### LEVEL ONE - OPENING
+* PLAYER/ROBOT: Bzzt- Bzzt-
+* SYSTEM: [SYSTEM REBOOTING]
+* *pause*
+* SYSTEM: [SYSTEM REBOOTED. RESTORING AI]
+* PLAYER/ROBOT: bzzt- need... repair bzzt
+* *after small amount of movement*
+* SYSTEM: [WARNING! HEAVY STRUCTURAL DAMAGE. SEEK REPAIRS. SEEK REPAIRS. SEEK REPAIRS]
+* PLAYER/ROBOT: scraps... find scraps...
+
+##### LEVEL ONE - FIND BEACON
+* PLAYER
