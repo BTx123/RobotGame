@@ -22,7 +22,7 @@ public class PlayerStats : MonoBehaviour {
 		}
 	}
 
-	public void Damage(int dmg){
-		health.CurrentVal -= dmg;
+	public void Damage(int dmg) {
+		health.CurrentVal -= 10;
 	}
 }
