@@ -24,6 +24,5 @@ public class PlayerStats : MonoBehaviour {
 
 	public void Damage(int dmg) {
 		health.CurrentVal -= 10;
-		print("dmg");
 	}
 }

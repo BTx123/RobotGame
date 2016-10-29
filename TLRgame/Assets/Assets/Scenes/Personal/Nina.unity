@@ -1814,7 +1814,8 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 65000010572472922, guid: fda74bfd2f5c28a43aa60bfad0909b39, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fda74bfd2f5c28a43aa60bfad0909b39, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1116421953
@@ -2424,8 +2425,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1326708626}
-  - 65: {fileID: 1326708627}
   - 114: {fileID: 1326708628}
+  - 61: {fileID: 1326708627}
   m_Layer: 0
   m_Name: poop trigger
   m_TagString: Untagged
@@ -2446,18 +2447,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 49737062}
   m_RootOrder: 0
---- !u!65 &1326708627
-BoxCollider:
+--- !u!61 &1326708627
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1326708625}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1}
 --- !u!114 &1326708628
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2695,6 +2698,25 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1338166778}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+--- !u!1 &1421180986 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013403541726, guid: fda74bfd2f5c28a43aa60bfad0909b39,
+    type: 2}
+  m_PrefabInternal: {fileID: 1027874765}
+--- !u!61 &1421180989
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421180986}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -3442,8 +3464,8 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1898805526}
-  - 65: {fileID: 1898805527}
   - 114: {fileID: 1898805528}
+  - 61: {fileID: 1898805527}
   m_Layer: 0
   m_Name: poop trigger
   m_TagString: Untagged
@@ -3464,18 +3486,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 126341775}
   m_RootOrder: 0
---- !u!65 &1898805527
-BoxCollider:
+--- !u!61 &1898805527
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1898805525}
+  m_Enabled: 1
+  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1}
 --- !u!114 &1898805528
 MonoBehaviour:
   m_ObjectHideFlags: 0
