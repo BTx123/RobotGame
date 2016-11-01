@@ -3,63 +3,47 @@
 ### General outline of the story.
 ---
 ### PREMISE/OPENING
-The year is 20XX. Robots have become self-aware due to breakthroughs in AI technologies, which allows us to have them take over more high-risk tasks and jobs due to their now-increased capabilities. Dissatisfied with their treatment, a large percentage of the robots rebel, forming the group known as 'The Foundation'. After numerous attacks by the group shut down most of the robot-producing factories and begin to wipe out a significant amount of humans, the remaining humans flock to safe zones and repurpose the remaining allied robots for combat purposes.
-
-As a last-ditch effort to push back The Foundation, an all-out assault is launched on multiple Foundation bases, but all are met with overwhelming resistance. The allied robots are almost completely wiped out, the player amongst the few remaining survivors.
+The year is 20XX. Humans have made huge advances in AI technologies, allowing for robots to replace humans in both dangerous and everyday jobs, ranging from construction to cashiering. However, a bug in the AI causes 95% of the world's robots to become homicidal and attack humans, believing themselves to be superior. The humans repurpose the remaining 5% of robots to fight the rebelling robots, but an all-out assault on the robot's base end in catastrophe when the human aligned forces are all but wiped out.
 
 ### NOTES
 * Presented in 8/16-bit era slides?
-* Lean a little more into a trope-y simple plot, as not to attempt to overshadow gameplay, and also keep a generally light tone
-* Also yes I am totally just ripping off chunks of Mega Man but please shhhhhh I want to pretend like I am being original thank you
+* This is basically Mega Man please refer to Mega Man.
 
 ---
-### LEVEL ONE - "THE RESURRECTION"
-* 'CUTSCENE' - Player wakes up among the ruins/remains of the allied army, crawls out.
-* At one point very close to the opening, dialogue/cutscene of how the player uses enemy scraps to repair themselves, signifying the first of the level's objectives
-* (OPTIONAL) About 75% of the way into the level, the player stumbles across a beacon to contact the humans. Dialogue/cutscene of the player trying and failing to use the beacon, then setting out to find parts to repair the beacon.
-* The player makes their way through the level, stumbling across a higher-class robot with data on The Foundation. After destroying the robot, the player retrieves the data.
-* At the ending, the player will re-establish a connection with the humans, who are relieved that there is a survivor with intel on The Foundation. End of level.
 
-### NOTES
-* Can make the player's main contacts on the human end two characters - guides ZACK and MELANIE. This is mostly to establish some other characters so later dialogue is from recognizable characters as opposed to a faceless entity.
-* Non-slides cutscenes would require some camera/trigger programming.
+### LEVEL ONE
+* 'CUTSCENE' - Player wakes up among the ruins/remains of the allied army, crawls out. After making slight repairs on self, the robot locates a communications beacon, and sets out to reach it.
+* Upon reaching the beacon, the player contacts the main human base, who are relieved that there is a survivor.
 
 ---
+
+### LEVEL TWO
+* 'CUTSCENE' - The player receives info from the humans on a working train that can transport the player back to the human base. At the same time, an incoming squad of robots is detected, the player having alerted the robots to their location. The player leaves to avoid capture and to find the train.
+* Upon fighting through the squad of robots, the player reaches the train and begins to travel towards the human base, unaware that there is a stray robot which has attached itself to the back of the train.
+
+---
+
 ### INTERMISSION
-* 'CUTSCENE' - The Foundation base notices the signal from the beacon, send a squad of robots to search the area again.
+* 'CUTSCENE' - The robot resistance locates the human base, dispatches all forces to attack the base
 
 ---
-### LEVEL TWO - "THE ROAD BACK"
-* 'CUTSCENE' - The player receives info from the humans on a working shuttle pod that can transport the player back to the human base.
-* The player is located by one of The Foundation's elite squads, and has to leave the beacon location to avoid being attacked
-* The player makes their way around the level, eliminating the robots to avoid having them tracking the player back to the base.
-* Reaching the ending, the player defeats the leader of the squadron and boards the shuttle pod, though the leader manages to attach part of himself to the pod before shutting down.
 
-### NOTES
-* Current story culminates in a boss fight - can be also just be larger squad of enemies at end to culminate in a more intense fight or something
+### LEVEL THREE
+* 'CUTSCENE' - The player is receiving upgrades at the human base when the robot resistance forces break in, interrupting the process of an upgrade.
+* Making their way through the base, the player fights through the rebel forces to reach their mothership, which has docked itself right outside the human base.
+* The level ends with the player entering to confront the rest of the robots.
 
 ---
-### INTERMISSION
-* 'CUTSCENE' - The Foundation locates the human base, dispatches all forces to attack the base
 
----
-### LEVEL THREE - "THE ORDEAL"
-* 'CUTSCENE' - The player is receiving upgrades at the human base when The Foundation's forces break in, interrupting the process of the upgrade. A group of humans help the player escape without being noticed.
-* The player searches the base for the rest of the upgrades, confronting more powerful robots until he reaches the Foundation's mothership
-* (OPTIONAL) The player frees the main board of humans from a group of robots in order to restore power to the base and push back some of the Foundation forces
-* The level ends upon the player, fully upgraded, enters the ship to confront the leader.
-
-### NOTES
-* Upgrades can either be gradual or simply pieces for a larger upgrade, which means that the player does not necessarily have to get more powerful through the level, but instead collecting things to confront the leader.
-
----
-### LEVEL FOUR - "CROSSING THE THRESHOLD"
-* Player confronts the boss, a defective robot. The two clash after a brief exchange in which the leader belittles humanity.
-* After the leader's defeat, the player detonates the ship's core, destroying all Foundation forces on board and ending the offensive. It also destroys the player. Something about a sacrifice.
+### LEVEL FOUR
+* The player is confronted by a massive robot constructed by the defective robots, upon which they are locked into a central arena in the ship while the other robots look on.
+* After the boss' defeat, the player activates the boss' self-destruct feature, which destroys the ship and most of the remaining rebelling robots.
 
 ### NOTES
 * Have an antechamber that leads into boss fight as to avoid dumping player directly into the fight, instead have cutscene be dialogue-based? Or have cutscene, then start in antechamber leading to boss.
 
 ---
+
 ### ENDING - "THE ORDINARY WORLD"
+* Not long after the destruction of the mothership, humans go on to destroy the rest of the robots.
 * Now free of robots, the world restructures and moves on, restoring society to peace. The site of the mothership is made into a museum/memorial of sorts, the player hailed as a hero and "the last robot"

@@ -1,0 +1,11 @@
+# SAMPLE STORY LINES
+
+### OPENING
+* THE YEAR IS 20XX (cityscape)
+* HUMANS HAVE PERFECTED ARTIFICIAL INTELLIGENCE (scientists/programmers)
+* ROBOTS HAVE REPLACED HUMANS IN DANGEROUS JOBS (construction robots working)
+* SUDDENLY, AN UPRISING! THE ROBOTS DO NOT LIKE DOING ALL THE WORK (angry robots)
+* THE ANGRY ROBOTS FORM THE FOUNDATION (foundation base + emblem)
+* HUMANS GET THE REMAINING ROBOTS TO FIGHT THE FOUNDATION (human robot army)
+* THE ARMIES FIGHT! THE FOUNDATION CRUSHES THE HUMANS (lol human robots get smashed)
+* BUT THERE IS A SURVIVOR (wreck player character sparking in wreckage)
