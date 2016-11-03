@@ -7,7 +7,6 @@ public class PlayerStats : MonoBehaviour {
 
 	public Stat exp;
 
-
 	private void Awake()
 	{
 		health.Initialize();

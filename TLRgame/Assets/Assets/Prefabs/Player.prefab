@@ -232,8 +232,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a740a09b9019e54d88dc6f3efda6016, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currHealth: 5
-  maxHealth: 5
+  health:
+    bar: {fileID: 0}
+    maxVal: 100
+    currentVal: 100
+  exp:
+    bar: {fileID: 0}
+    maxVal: 100
+    currentVal: 0
+  currHealth: 100
+  maxHealth: 100
   lastFacing: 1
   speed: 50
   maxSpeed: 3
