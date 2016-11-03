@@ -4,16 +4,18 @@ using UnityEngine.UI;
 
 public class BarScript : MonoBehaviour {
 
-	public float fillAmount;
+    public Player player;
 
-	public Text valueText;
+    public Text valueText;
 
-	public Image content;
+    public Image content;
 
-	public float MaxValue { get; set; }
-
-	public float Value {
-		set{
+    public float fillAmount;
+    public float MaxValue { get; set; }
+	public float Value
+    {
+		set
+        {
 			string[] tmp = valueText.text.Split(':');
 			valueText.text = tmp[0] + ": " + value;
 			fillAmount = Map(value, 0, MaxValue, 0, 1);
@@ -21,22 +23,27 @@ public class BarScript : MonoBehaviour {
 	}
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
 		
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		HandleBar();
 	}
 
-	private void HandleBar(){
-		if (fillAmount != content.fillAmount){
+	private void HandleBar()
+    {
+		if (fillAmount != content.fillAmount)
+        {
 				content.fillAmount = fillAmount;
 		}
 	}
 
-	private float Map(float value, float inMin, float inMax, float outMin, float outMax){
+	private float Map(float value, float inMin, float inMax, float outMin, float outMax)
+    {
 		return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
 	}
 }

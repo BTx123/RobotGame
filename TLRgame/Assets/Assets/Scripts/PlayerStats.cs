@@ -7,7 +7,6 @@ public class PlayerStats : MonoBehaviour {
 
 	public Stat exp;
 
-
 	private void Awake()
 	{
 		health.Initialize();
@@ -24,6 +23,5 @@ public class PlayerStats : MonoBehaviour {
 
 	public void Damage(int dmg) {
 		health.CurrentVal -= 10;
-		print("dmg");
 	}
 }

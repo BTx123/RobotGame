@@ -8,9 +8,9 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-	// Stats
-	public int currHealth;
-	public int maxHealth = 100;
+    // Stats
+    public Stat health;
+    public Stat exp;
     public int lastFacing = 1;
 
 	// Floats
@@ -28,18 +28,23 @@ public class Player : MonoBehaviour
 	private Rigidbody2D rb2D;
 	private Animator anim;
 
+    public void Awake()
+    {
+        health.Initialize();
+        exp.Initialize();
+    }
+
 	// Use this for initialization
 	void Start ()
 	{
 		rb2D = gameObject.GetComponent<Rigidbody2D>();
 		anim = gameObject.GetComponent<Animator>();
-		currHealth = maxHealth;
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		anim.SetBool("isGrounded", isGrounded);             // associating Grounded from Unity to isGrounded in script
+		anim.SetBool("isGrounded", isGrounded);             // associating isGrounded from Unity to isGrounded in script
 		anim.SetFloat("Speed", Mathf.Abs(rb2D.velocity.x)); // only a positive value
 		anim.SetBool("isDead", isDead);                     // dead when currHealth <= 0
         // Player faces last facing direction when idle
@@ -77,16 +82,26 @@ public class Player : MonoBehaviour
                 }
             }
         }
-        // Limit health to max possible health
-		if (currHealth > maxHealth)
+        // Reduce health test
+        if (Input.GetKeyDown(KeyCode.Q))
         {
-			currHealth = maxHealth;
+            health.currentVal -= 10;
+        }
+        // Limit health to max possible health
+        if (health.currentVal > health.maxVal)
+        {
+			health.currentVal = health.maxVal;
 		}
         // Player dies if health is 0 or less
-        else if (currHealth <= 0)
+        else if (health.currentVal <= 0)
         {
 			Die ();
 		}
+        // EXP
+        if (exp.currentVal >= exp.maxVal)
+        {
+            Upgrade();
+        }
 	}
 
 	// FixedUpdated called for physics stuff
@@ -115,6 +130,17 @@ public class Player : MonoBehaviour
 			rb2D.velocity = new Vector2(-maxSpeed, rb2D.velocity.y);
 		}
 	}
+
+    void Damage(int dmg)
+    {
+        health.CurrentVal -= 10;
+    }
+
+    void Upgrade()
+    {
+        return;
+    }
+
     // Player respawns, level restarts
 	void Die ()
 	{

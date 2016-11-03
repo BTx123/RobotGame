@@ -11,7 +11,8 @@ public class Stat {
 
 	public float currentVal;
 
-	public float CurrentVal{
+	public float CurrentVal
+    {
 		get
 		{
 			return currentVal;
@@ -24,7 +25,8 @@ public class Stat {
 		}
 	}
 
-	public float MaxVal{
+	public float MaxVal
+    {
 		get
 		{
 			return maxVal;
