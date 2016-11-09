@@ -629,7 +629,7 @@ GameObject:
   - 222: {fileID: 261434763}
   - 114: {fileID: 261434762}
   m_Layer: 5
-  m_Name: HP Content
+  m_Name: HealthContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,7 +762,7 @@ GameObject:
   - 222: {fileID: 365003475}
   - 114: {fileID: 365003474}
   m_Layer: 5
-  m_Name: Value Text
+  m_Name: EXPText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -776,14 +776,14 @@ RectTransform:
   m_GameObject: {fileID: 365003472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0}
+  m_LocalScale: {x: 0.13711263, y: 0.13711262, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1159996260}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 25.6, y: -3.6}
+  m_AnchoredPosition: {x: 14.9, y: -2.9}
   m_SizeDelta: {x: 150.4, y: 14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &365003474
@@ -807,15 +807,15 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 0
-    m_MaxSize: 40
+    m_MinSize: 14
+    m_MaxSize: 72
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'EXP:'
@@ -836,7 +836,7 @@ GameObject:
   - 222: {fileID: 375122580}
   - 114: {fileID: 375122579}
   m_Layer: 5
-  m_Name: Value Text
+  m_Name: HealthText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -850,14 +850,14 @@ RectTransform:
   m_GameObject: {fileID: 375122577}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.25, y: 0.25, z: 0}
+  m_LocalScale: {x: 0.13469398, y: 0.134694, z: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1931299685}
   m_RootOrder: 1
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -141.2, y: -4.4}
+  m_AnchoredPosition: {x: -154.6, y: -4.3}
   m_SizeDelta: {x: 170.05, y: 15.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375122579
@@ -881,15 +881,15 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 72
     m_FontStyle: 0
     m_BestFit: 1
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 14
+    m_MaxSize: 72
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Health: '
@@ -1769,7 +1769,7 @@ GameObject:
   - 222: {fileID: 1068002208}
   - 114: {fileID: 1068002207}
   m_Layer: 5
-  m_Name: EXP Content
+  m_Name: EXPContent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1886,7 +1886,7 @@ GameObject:
   - 114: {fileID: 1159996262}
   - 114: {fileID: 1159996261}
   m_Layer: 5
-  m_Name: EXP Bar
+  m_Name: EXPBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2209,7 +2209,7 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -850, y: 425}
+  m_AnchoredPosition: {x: -850, y: 440}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1679613642
@@ -2872,7 +2872,7 @@ GameObject:
   - 114: {fileID: 1931299687}
   - 114: {fileID: 1931299686}
   m_Layer: 5
-  m_Name: HP Bar
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
