@@ -8,18 +8,13 @@ using System.Collections;
 
 public class Player : MonoBehaviour
 {
-    // Stats
     public Stat health;
     public Stat exp;
     public int lastFacing = 1;
-
-	// Floats
 	public float speed = 50f;
 	public float maxSpeed = 5f;
 	public float jumpPower = 150f;
 	public float friction = 0.75f;
-
-	// Booleans
 	public bool isGrounded;
 	public bool isDoubleOK;
 	public bool isDead = false;
