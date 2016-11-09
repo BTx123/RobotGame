@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
 
     public void Damage(int dmg)
     {
-        health.CurrentVal -= 10;
+        health.CurrentVal -= dmg;
     }
 
     void Upgrade()
