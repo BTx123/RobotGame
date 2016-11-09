@@ -12,20 +12,21 @@ public class BarScript : MonoBehaviour {
 
     public float fillAmount;
     public float MaxValue { get; set; }
-	public float Value
+
+    public float Value
     {
-		set
+		    set
         {
-			string[] tmp = valueText.text.Split(':');
-			valueText.text = tmp[0] + ": " + value;
-			fillAmount = Map(value, 0, MaxValue, 0, 1);
-		}
-	}
+			       string[] tmp = valueText.text.Split(':');
+			       valueText.text = tmp[0] + ": " + value;
+			       fillAmount = Map(value, 0, MaxValue, 0, 1);
+        }
+    }
 
 	// Use this for initialization
 	void Start ()
     {
-		
+
 	}
 
 	// Update is called once per frame

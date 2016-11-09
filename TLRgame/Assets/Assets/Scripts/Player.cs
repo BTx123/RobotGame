@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
         // Reduce health test
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            health.currentVal -= 10;
+            health.CurrentVal -= 10;
         }
         // Limit health to max possible health
         if (health.currentVal > health.maxVal)
@@ -131,7 +131,7 @@ public class Player : MonoBehaviour
 		}
 	}
 
-    void Damage(int dmg)
+    public void Damage(int dmg)
     {
         health.CurrentVal -= 10;
     }
