@@ -202,49 +202,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 101018287}
---- !u!1 &308709687
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 308709689}
-  - 114: {fileID: 308709688}
-  m_Layer: 0
-  m_Name: LevelHandler
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &308709688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 308709687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0d3f436b418b7459ab961d458531dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  overlay: {fileID: 2083677528}
-  fadeTime: 1
-  player: {fileID: 955090677}
---- !u!4 &308709689
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 308709687}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
 --- !u!1 &383073799
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,12 +919,6 @@ MonoBehaviour:
     bar: {fileID: 446722418}
     maxVal: 100
     currentVal: 0
---- !u!114 &955090677 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114000010992725028, guid: 55a4bd6522101b04fba914c23b79aba5,
-    type: 2}
-  m_PrefabInternal: {fileID: 955090673}
-  m_Script: {fileID: 11500000, guid: 3a740a09b9019e54d88dc6f3efda6016, type: 3}
 --- !u!1 &999491280
 GameObject:
   m_ObjectHideFlags: 0
@@ -2218,7 +2169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 656dbedbcef35344ba307b4b1db51915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelhandler: {fileID: 308709688}
+  overlay: {fileID: 2083677528}
+  fadeTime: 2
 --- !u!4 &1672546119
 Transform:
   m_ObjectHideFlags: 0
