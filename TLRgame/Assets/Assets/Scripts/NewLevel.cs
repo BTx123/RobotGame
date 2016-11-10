@@ -3,10 +3,10 @@ using System.Collections;
 
 public class NewLevel : MonoBehaviour {
 
-	public LevelHandler levelhandler;
+	public LevelManager levelmanager;
 
 	void Awake() {
-		StartCoroutine(levelhandler.FadeToClear());
+		StartCoroutine(levelmanager.FadeToClear());
 	}
 
 	// Use this for initialization

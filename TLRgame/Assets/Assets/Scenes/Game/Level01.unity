@@ -2757,6 +2757,7 @@ GameObject:
   - 212: {fileID: 1930833192}
   - 95: {fileID: 1930833191}
   - 60: {fileID: 1930833190}
+  - 114: {fileID: 1930833194}
   m_Layer: 0
   m_Name: Beacon
   m_TagString: Untagged
@@ -2966,6 +2967,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &1930833194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1930833189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0d3f436b418b7459ab961d458531dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  overlay: {fileID: 0}
+  fadeTime: 0
+  player: {fileID: 0}
 --- !u!1 &1931299684
 GameObject:
   m_ObjectHideFlags: 0
