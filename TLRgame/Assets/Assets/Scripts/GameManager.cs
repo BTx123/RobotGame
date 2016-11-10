@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public float levelStartDelay = 2f;
     public static GameManager instance = null;
+    private LevelManager levelScript;
 
     private Text levelText;
     private GameObject levelImage;
