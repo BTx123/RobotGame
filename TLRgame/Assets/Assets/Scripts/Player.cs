@@ -133,7 +133,7 @@ public class Player : MonoBehaviour
     }
 
     // increase exp by experience
-    public void GetExp(int experience)
+    public void GainExp(int experience)
     {
       exp.CurrentVal += experience;
     }
