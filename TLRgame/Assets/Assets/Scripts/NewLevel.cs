@@ -3,11 +3,12 @@ using System.Collections;
 
 public class NewLevel : MonoBehaviour {
 
-	public GUITexture overlay;
-	public float fadeTime;
-	
-	void Awake() {
-		StartCoroutine(FadeToClear());
+	public LevelManager levelmanager;
+    public GUITexture overlay;
+    public float fadeTime;
+
+    void Awake() {
+        StartCoroutine(levelmanager.FadeToClear());
 	}
 
 	public IEnumerator FadeToClear()
