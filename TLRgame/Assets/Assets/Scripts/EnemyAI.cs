@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// https://unity3d.com/learn/tutorials/projects/survival-shooter/more-enemies
+
+using UnityEngine;
 using System.Collections;
 
 public class EnemyAI : MonoBehaviour {
@@ -22,17 +24,28 @@ public class EnemyAI : MonoBehaviour {
     public float x_coor;
 
     // Use this for initialization
-    void Start () {
-	
-	}
+    void Start ()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player");
+        //item_drop = GetComponent<Scrap>();
+        distance_left = transform.position.x - 5;
+        distance_right = transform.position.x + 5;
+        initial_pos = transform.position.x;
+        max_follow_right = distance_right + 5;
+        max_follow_left = distance_left - 5;
+        aggro = false;
+        return_init = false;
+    }
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 	    if (currHealth <= 0)
         {
             print("Enemy killed!");
             Destroy(gameObject);
         }
+
         x_coor = transform.position.x;
         distance = Vector2.Distance(transform.position, Player.transform.position);
 

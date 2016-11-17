@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 	public bool isGrounded;
 	public bool isDoubleOK;
 	public bool isDead = false;
+
     public Stat health;
     public Stat exp;
 
@@ -36,6 +37,12 @@ public class Player : MonoBehaviour
 	{
 		anim.SetBool("isGrounded", isGrounded);
 		anim.SetBool("isDead", isDead);
+
+      // Reduce exp test
+      if (Input.GetKeyDown(KeyCode.E))
+		    {
+		        exp.CurrentVal += 10;
+		    }
 
         // Reduce health test
         if (Input.GetKeyDown(KeyCode.Q))
@@ -78,7 +85,7 @@ public class Player : MonoBehaviour
         easeVelocity.y = rb2D.velocity.y; // friction does not affect jump
         if (isGrounded)
             rb2D.velocity = easeVelocity;
-        
+
         // Limit speed
         if (rb2D.velocity.x > maxSpeed)
             rb2D.velocity = new Vector2(maxSpeed, rb2D.velocity.y);
@@ -120,9 +127,16 @@ public class Player : MonoBehaviour
         transform.localScale = scale;
     }
 
+    // decreases health by dmg
     public void Damage(int dmg)
     {
         health.CurrentVal -= dmg;
+    }
+
+    // increase exp by experience
+    public void GetExp(int experience)
+    {
+      exp.CurrentVal += experience;
     }
 
     void Upgrade()
