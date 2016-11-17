@@ -6,7 +6,7 @@
 * [Game Pitch](https://github.com/BTx123/VGDC_TheLastRobot/blob/master/story/game_pitch.md#game-pitch)
 
 ## TODO
-* Story
+* ~~Story~~
 * Enemy sprites and AI
 * Level Design
 * Sound
