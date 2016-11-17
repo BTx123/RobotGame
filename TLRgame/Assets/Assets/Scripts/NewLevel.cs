@@ -8,7 +8,7 @@ public class NewLevel : MonoBehaviour {
     public float fadeTime;
 
     void Awake() {
-		StartCoroutine(levelmanager.FadeToClear());r
+        StartCoroutine(levelmanager.FadeToClear());
 	}
 
 	public IEnumerator FadeToClear()
