@@ -85,6 +85,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c36b2791aa4ed242b7f4a95cc45b4a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 1000012509000898, guid: 55a4bd6522101b04fba914c23b79aba5, type: 2}
+  Scrap: {fileID: 0}
+  aggro: 0
+  return_init: 0
+  currHealth: 50
+  distance: 0
+  distance_left: 0
+  distance_right: 0
+  initial_pos: 0
+  max_follow_right: 0
+  max_follow_left: 0
+  x_coor: 0
 --- !u!212 &212000012008159112
 SpriteRenderer:
   m_ObjectHideFlags: 1

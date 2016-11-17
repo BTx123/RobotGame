@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
 	public bool isGrounded;
 	public bool isDoubleOK;
 	public bool isDead = false;
+
     public Stat health;
     public Stat exp;
 
