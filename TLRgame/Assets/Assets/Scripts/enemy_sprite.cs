@@ -16,8 +16,6 @@ public class enemy_sprite : MonoBehaviour {
 	public float max_follow_left;
 	public float x_coor;
 
-	private Scrap item_drop;
-
 	void Start ()
 	{
 		Player = GameObject.FindGameObjectWithTag ("Player");

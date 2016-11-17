@@ -8,8 +8,6 @@ public class EnemyAI : MonoBehaviour {
     public GameObject Player;
     public GameObject Scrap;
 
-    private Scrap item_drop;
-
     public bool aggro;
     public bool return_init;
 
