@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 12dc415c43391074a83256eae50b1a5f
-timeCreated: 1478140230
+timeCreated: 1479357605
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,7 +60,7 @@ TextureImporter:
       name: enemy1_transparent_0
       rect:
         serializedVersion: 2
-        x: 9
+        x: 15
         y: 0
         width: 512
         height: 512
